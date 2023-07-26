@@ -1,41 +1,38 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "swashbuckler",
+  "title": "Swashbuckler Class",
+  "description": "The Swashbuckler class for 5E, by somanyrobots",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": "0.8.6",
+    "verified": 11,
+    "maximum": 12
   },
+  "author": "somanyrobots",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "somanyrobots",
+      "url": "https://www.somanyrobots.com",
+      "discord": "somanyrobots#9800",
+      "patreon": "https://www.patreon.com/somanyrobots",
+      "email": "somanyrobots@somanyrobots.com",
+      "reddit": "https://www.reddit.com/user/somanyrobots"
     }
   ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
-  "esmodules": [
-    "scripts/module.js"
+  "packs": [
+      {
+          "name": "swashbuckler-items",
+          "label": "Swashbuckler",
+          "path": "./packs/items.db",
+          "entity": "Item",
+          "type": "Item",
+          "system": "dnd5e"
+      }
   ],
   "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
+    "scripts/items.js"
   ],
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
