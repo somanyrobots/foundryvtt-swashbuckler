@@ -24,7 +24,7 @@
   "packs": [
       {
           "name": "swashbuckler-items",
-          "label": "Swashbuckler",
+          "label": "somanyrobots's Swashbuckler",
           "path": "./packs/items.db",
           "entity": "Item",
           "type": "Item",
